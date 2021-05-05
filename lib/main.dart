@@ -50,15 +50,14 @@ class MyDetails extends StatelessWidget {
                             fontSize: 16,
                             letterSpacing: 2.0),
                       ),
-                        Text(
-                          'ENGINEER',
-                          style: TextStyle(
-                              color: Colors.black26,
-                              fontSize: 19,
-                              fontWeight: FontWeight.bold,
-                              letterSpacing: 2.0),
-
-                        ),
+                      Text(
+                        'ENGINEER',
+                        style: TextStyle(
+                            color: Colors.black26,
+                            fontSize: 19,
+                            fontWeight: FontWeight.bold,
+                            letterSpacing: 2.0),
+                      ),
                       SizedBox(
                         height: 20,
                       ),
@@ -88,7 +87,8 @@ class MyDetails extends StatelessWidget {
                             EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                         child: Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 8),
-                          child: Text('I am curious about what I can gain from this course. It has been worth it so far.',
+                          child: Text(
+                              'I am curious about what I can gain from this course. It has been worth it so far.',
                               textAlign: TextAlign.center,
                               style: TextStyle(
                                   color: Colors.redAccent,
@@ -105,7 +105,6 @@ class MyDetails extends StatelessWidget {
                           color: Colors.blue,
                         ),
                       ),
-
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 16),
                         child: Card(
@@ -130,7 +129,7 @@ class MyDetails extends StatelessWidget {
                         child: Card(
                           color: Colors.lightGreen,
                           margin:
-                          EdgeInsets.symmetric(horizontal: 12, vertical: 5),
+                              EdgeInsets.symmetric(horizontal: 12, vertical: 5),
                           child: Padding(
                             padding: const EdgeInsets.symmetric(
                                 vertical: 8, horizontal: 10),
@@ -144,7 +143,6 @@ class MyDetails extends StatelessWidget {
                           ),
                         ),
                       ),
-
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 16),
                         child: Card(
@@ -178,12 +176,12 @@ class MyDetails extends StatelessWidget {
                 margin: const EdgeInsets.all(4),
                 height: 150,
                 width: 150,
-                decoration:
-                BoxDecoration(shape: BoxShape.rectangle, color: Colors.white),
+                decoration: BoxDecoration(
+                    shape: BoxShape.rectangle, color: Colors.white),
                 child: Container(
                   padding: EdgeInsets.all(4),
                   margin: const EdgeInsets.all(8),
-                                    decoration: BoxDecoration(
+                  decoration: BoxDecoration(
                     shape: BoxShape.rectangle,
                     border: Border.all(color: Colors.white10, width: 5),
                   ),
